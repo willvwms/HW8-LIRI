@@ -1,0 +1,31 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "Command line node app that takes in arguments and returns data from Spolify, Twitter and OMDB",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willvwms/HW8-LIRI.git"
+  },
+  "keywords": [
+    "liri",
+    "twitter",
+    "spotify",
+    "omdb",
+    "node"
+  ],
+  "author": "will williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willvwms/HW8-LIRI/issues"
+  },
+  "homepage": "https://github.com/willvwms/HW8-LIRI#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  }
+}
